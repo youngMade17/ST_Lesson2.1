@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.softaware_testing'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.10.0'
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
