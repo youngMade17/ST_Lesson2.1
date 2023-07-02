@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FirstClass {
     private WebDriver driver;
-    private WebDriverWait waitt;
+    private WebDriverWait waittt;
     @Before
     public void start() {
         driver = new ChromeDriver();
